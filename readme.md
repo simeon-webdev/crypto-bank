@@ -27,6 +27,10 @@ DB_DATABASE
 DB_USERNAME
 DB_PASSWORD
 ```
+- Broadcast driver into the .env should be redis
+```
+BROADCAST_DRIVER=redis
+```
 - Start the database migrations and seeders with:
 ```
     php artisan migrate --seed
